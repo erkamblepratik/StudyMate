@@ -1,0 +1,21 @@
+StudyMate AI Architecture
+
+Student
+  |
+  v
+Streamlit Web Interface
+  |
+  v
+Input / Prompt Processing
+  |-----------------------|
+  v                       v
+Built-in Tools         Optional LLM API
+- Safe Calculator     - OpenAI Responses API
+- Study Plan          - Prompt + subject context
+- Quiz Templates             |
+  |---------------------------|
+              v
+       Session Memory
+              |
+              v
+       Chat Response UI
